@@ -1,0 +1,9 @@
+What most people are wondering is not 'when do we have multicollinearity' as we usually do have some.
+
+The better question to ask is 'When can we safely ignore multicollinearity'.
+
+Here's a great article on the topic: http://statisticalhorizons.com/multicollinearity
+
+***
+
+Regarding the variance inflation factor method that we employed from StatsModels, you can read the full documentation here: https://www.statsmodels.org/stable/generated/statsmodels.stats.outliers_influence.variance_inflation_factor.html

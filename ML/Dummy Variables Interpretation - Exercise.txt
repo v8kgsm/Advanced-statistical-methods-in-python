@@ -1,0 +1,16 @@
+What are the reference (benchmark) categories for each categorical variable?
+Solution:
+
+data_cleaned['name_of_categorical_variable'].unique() and find which ones are missing.
+
+The benchmark categories are as follows:
+
+Brand -> 'Audi'
+
+Body -> 'crossover'
+
+Engine Type -> 'Diesel'
+
+Registration -> 'no'
+
+Naturally, if you reorder the categorical variables prior to using .get_dummies() you will be able to customize the reference category.
